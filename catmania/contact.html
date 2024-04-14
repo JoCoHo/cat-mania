@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>
+	    Cat Mania - Contact us
+	</title>
+	<link rel="stylesheet" href="catmania.css">
+	<style>
+        @import url('https://fonts.googleapis.com/css2?family=Archivo');
+		@import url('https://fonts.googleapis.com/css2?family=Inder');
+		
+		form {
+			padding: 20px;
+			font-family: "Archivo", Arial, Helvetica, sans-serif;
+			font-size: 1.2em;
+		}
+		
+		input {
+		    width: 40%;
+			padding: 10px 15px;
+		}
+		
+		input[type=submit] {
+	        width: 20%;
+			height: 60px;
+			background-color: #6F0000;
+			border:none;
+			color: white;
+			font-size: 1.25em;
+			padding: 10px;
+		}
+		
+	    textarea {
+			padding: 10px 15px;
+			font-family: "Archivo", Arial, Helvetica, sans-serif;
+		}
+	
+    </style>
+</head>
+
+<header>
+    <a href="index.html" class="logo"><h1>Cat Mania</h1></a>
+	<nav>
+	    <ul>
+		    <li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About us</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="contact.html">Contact us</a></li>
+		</ul>
+	</nav>
+</header>
+
+<body>
+    <div class="banner">
+	    <h1>Contact us</h1>
+	</div>
+    <div class="container">
+	    <section>
+	    <h2>How can I contact you?</h2>
+		<hr>
+		<p>For any inquries you'd like to make with us, whether you're interesting in joining, want to learn more about us,
+		or for any other reason, you can use the form below to contact us. We ask that you provide your name and email address,
+		as this will allow us to reach out to you.</p>
+		</section>
+		<h2>Contact us form</h2>
+		<hr>
+		<!--Form includes three text inputs, a text area and a submit button. -->
+		<form>
+			<label for="fname">First name:</label><br><br>
+			<input type="text" id="fname" name="fname"><br><br>
+  			<label for="lname">Last name:</label><br><br>
+			<input type="text" id="lname" name="lname"><br><br>
+			<label for="email">Email address:</label><br><br>
+			<input type="text" id="email" name="email"><br><br>
+			<label for="inquiry">Your inquiry:</label><br><br>
+			<textarea id="inquiry" name="inquiry" rows="16" cols="50"></textarea><br><br>
+			<input type="submit" value="Submit"> 
+</form>
+	</div>
+</body>
+
+<footer>
+    <p>© Cat Mania, 2024.<br>
+	Website made by Joel Holderness.</p>
+</footer>
+</html>
